@@ -1,9 +1,4 @@
 
-
-
-
-
-
 import {
   AppBar,
   Avatar,
@@ -120,7 +115,7 @@ const Room = () => {
           >
             <Box>
               <Typography variant="h6" component="span">
-                {'Price Per Night: '}
+                {'Price Per Month: '}
               </Typography>
               <Typography component="span">
                 {room?.price === 0 ? 'Free Stay' : 'Rs' + room?.price}

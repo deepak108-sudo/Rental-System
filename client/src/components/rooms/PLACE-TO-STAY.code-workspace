@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../js"
+		},
+		{
+			"path": "../../../../../Place"
+		},
+		{
+			"path": "../../../../../react javatpoint"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js"
+	}
+}
