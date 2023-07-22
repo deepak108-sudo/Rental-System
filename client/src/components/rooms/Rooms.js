@@ -33,7 +33,7 @@ const Rooms = () => {
                   background:
                     'linear-gradient(to bottom, rgba(0,0,0,0.7)0%, rgba(0,0,0,0.3)70%, rgba(0,0,0,0)100%)',
                 }}
-                title={room.price === 0 ? 'Free Stay' : '$' + room.price}
+                title={room.price === 0 ? 'Free Stay' : 'Rs' + room.price}
                 actionIcon={
                   <Tooltip title={room.uName} sx={{ mr: '5px' }}>
                     <Avatar src={room.uPhoto} />
